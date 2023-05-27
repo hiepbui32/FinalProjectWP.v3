@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9a24bbafe6f0426bb3bc8ab1a29d1228" Name="Diagram1">
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.ACCOUNT" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.AUTHORITY" Width="1.5" PointX="1.5" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.CUSTOMER" Width="1.5" PointX="6" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.EMPLOYEE" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.GROUP_OF_EMPLOYEE" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.ITEM_IN_ORDER" Width="1.5" PointX="10.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.ITEM" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.KIND_OF_EMPLOYEE" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.ORDER" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.PAYMENT_TYPE" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.STORE" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.SUPPLIER" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.sysdiagram" Width="1.5" PointX="8.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.TYPE_OF_CUSTOMER" Width="1.5" PointX="3.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.TYPE_OF_ITEM" Width="1.5" PointX="3.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.TYPE_OF_USER" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.WAREHOUSE" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.WORKINGTIME" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.Employees_View" Width="1.5" PointX="10.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.Gold_Customer" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.Platinum_Customer" Width="1.5" PointX="10.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.Salary_Of_Employee" Width="1.5" PointX="10.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.Silver_Customer" Width="1.5" PointX="12.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Account_Authority" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Info_Of_Customers" Width="1.5" PointX="12.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Info_Of_Employee" Width="1.5" PointX="12.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Order_Detail" Width="1.5" PointX="14.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Order_Detail_new_" Width="1.5" PointX="14.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Order_Detail_For_Export" Width="1.5" PointX="14.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Status_Of_WareHouse" Width="1.5" PointX="8.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.v_Working_time" Width="1.5" PointX="14.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConvenienceStoreManagementModel.View_Item" Width="1.5" PointX="10.75" PointY="15.875" IsExpanded="true" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ACCOUNT__IDEmp__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__TYPE_OF_U__IDAut__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__CUSTOMERS__IDTyp__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ORDERS__IDCustom__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__EMPLOYEES__IDGro__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__EMPLOYEES__IDKin__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__EMPLOYEES__IDSto__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__EMPLOYEES__IDTyp__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ORDERS__IDEmp__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__WORKINGTI__IDEmp__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ITEM_IN_O__IDIte__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ITEM_IN_O__IDOrd__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ITEMS__IDStore__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ITEMS__IDSupplie__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ITEMS__IDType__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__WAREHOUSE__IDIte__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ORDERS__IDPaymen__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="ConvenienceStoreManagementModel.FK__ORDERS__IDStore__02084FDA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
